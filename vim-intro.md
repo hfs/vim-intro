@@ -507,18 +507,18 @@ Command Line
     <Up> <Down>         Browse history
     :{prefix}<Up>       Search history
     :w                  Write file
-    :set 'setting'      To change settings for the session
-
-
-
-
-
-
-
-
-
-
-
+    :e [filename]       Edit [filename]
+    :set 'setting'      To change settings for the session:
+                        nocompatible
+                        laststatus=2
+                        wildmenu
+                        textwidth=80 tabstop=4 shiftwidth=4 expandtab
+                        nowrap
+                        scrolloff=10
+                        colorcolumn=80
+                        filetype=markdown
+                        fileformat=unix
+                        fileencoding=utf-8
 
 
 
