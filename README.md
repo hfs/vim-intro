@@ -29,7 +29,7 @@ Map the following keys to navigate the slides backward and forward with `<F2>`
 and `<F3>`:
 
     :map <F3> ]]jz<CR>
-    :map <F2> k[[z<CR>
+    :map <F2> k[[zj<CR>
 
 Additionally you may run a tool like [screenkey] which displays your keypresses
 to the audience.
